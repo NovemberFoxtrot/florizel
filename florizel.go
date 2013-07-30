@@ -7,9 +7,9 @@ import (
 )
 
 func main() {
-  var ip = flag.String("http", "000", "A valid HTTP code")
+  var someCode = flag.String("http", "000", "A valid HTTP code")
 
   flag.Parse()
 
-  fmt.Println(tango.FetchMeaning(*ip))
+  fmt.Println(tango.FetchMeaning(*someCode))
 }
