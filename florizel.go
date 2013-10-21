@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-  var someCode = flag.String("http", "000", "A valid HTTP code")
+  var someCode = flag.String("http", "000", "A valid HTTP code.")
 
   flag.Parse()
 
